@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .test-title {
+    @apply text-3xl bg-slate-200 font-bold underline text-slate-800 p-4 text-center dark:bg-slate-800 dark:text-slate-100;
+  }
+}
